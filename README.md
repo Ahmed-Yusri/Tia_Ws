@@ -1,7 +1,5 @@
 
-# Welcome,
-
-# Tia_Ws
+# Welcome, Tia_Ws
   > Implementing a light Operating System on the ARM Cortex M.
   > Develop/Implement a lot of the MCAL drivers.
 
