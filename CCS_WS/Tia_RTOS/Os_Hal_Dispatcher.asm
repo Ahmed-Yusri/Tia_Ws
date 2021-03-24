@@ -59,8 +59,6 @@ ctx_switch:
 	STRB  R3, [R2, #4]			 
 
 ret:
-	movs       r0, #6
-
 	CPSIE  I  					 ; Enable the global interrupt.
 	BX     LR 					 ; return using the link register..
 
