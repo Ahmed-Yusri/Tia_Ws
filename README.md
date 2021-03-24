@@ -1,7 +1,8 @@
 
 # Welcome, Tia_Ws
   > Implementing a light Operating System on the ARM Cortex M.
-  > Develop/Implement a lot of the MCAL drivers for the TMC129ENCPDT.
+  
+  > Develop/Implement a lot of the MCAL drivers for the TM4C129ENCPDT.
 
 # Notes:
   > The project is done for fun and to practice more, nothing else.
