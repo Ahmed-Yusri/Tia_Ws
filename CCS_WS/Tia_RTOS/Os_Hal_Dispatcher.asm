@@ -66,6 +66,8 @@ ret:
 
 
 ; Supervisor call :
+;                    TODO: Map the application calles to the Svc handler to call the Os service. 
+;			   and to excute the Os code from the System level only.
 ;					Used when the application needs something from the Os.
 ; For the First call: 'StartOs'
 ;		* Use the vector table offset register to get the stack. 
