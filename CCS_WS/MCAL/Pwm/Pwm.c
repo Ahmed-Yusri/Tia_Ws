@@ -12,10 +12,10 @@
  *******************************************************************************/ 
 #define PWM_HW_REG_RW(b,o)      ((volatile uint32_t*)((b)+(o)))
 
-volatile static const uint32_t pwm_gen_offset[] = {
-                                                   PWM_GEN0_OFFSET, PWM_GEN1_OFFSET,
-                                                   PWM_GEN2_OFFSET, PWM_GEN3_OFFSET
-                                                  };
+static const uint32_t pwm_gen_offset[] = {
+                                           PWM_GEN0_OFFSET, PWM_GEN1_OFFSET,
+                                           PWM_GEN2_OFFSET, PWM_GEN3_OFFSET
+                                         };
 /*******************************************************************************
  *  Global functions. >-PWM-<
  *******************************************************************************/
