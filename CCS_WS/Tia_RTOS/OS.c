@@ -171,6 +171,8 @@ StatusType ChainTask(TaskType TaskId)
  ************************************************************************************************/
 void Os_SysTickTimer(void)
 {
+   /* TODO: Move the handling of the timing events to a system task > to decrease the SysTick ISR eTime.*/
+ 
    OS_INCREMENT_TICK_COUNTER(OS_CFG_SYS_TICK_IN_MS); /*Increment SysTick Counter..*/
 
    Os_UpdateTimingEvents(); /* Upate the timing events if needed..*/ 
