@@ -81,7 +81,7 @@ ret:
 ;LDR	R1, [R1, #24]
 ;LDRB	R1, [R1, #-2]
 Os_SVC_Handler:
-;Clear the MSP 'Set the MSP to the vector table offset'.
+;Clear the MSP 'Set the MSP to the vector table offset #0 'The initial stack pointer'.
 	LDR.W R0,  ARM_M7_VECTOR_TABLE_OFFSET
 	LDR R0, [R0]
 	LDR R0, [R0]
