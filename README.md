@@ -12,7 +12,5 @@
   > I am using code composer studio v10.
 
 # Please feel free to ask/modify without any need for a prior approval.
-
-
-# Ahmed Yusri Mohamed
-# Best Regards
+ > Ahmed Yusri Mohamed
+ > Best Regards
