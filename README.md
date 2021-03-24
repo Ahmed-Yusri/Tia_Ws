@@ -1,2 +1,2 @@
 # Tia_Ws
-Implementing a Small Operating System on the ARM Cortex M.
+Implementing a light Operating System on the ARM Cortex M.
