@@ -18,7 +18,7 @@
  * Os.Global Variables.
  *************************************************************************/
 
- /*The following variables are shared with the OS Dispatcher ASM.*/
+ /*Shared with the OS Dispatcher ASM.*/
 volatile Os_DynTaskInfoType Os_GlobalTaskCtxInfo =\
 {
    .curTaskCfgBlockPtr = (Os_TaskCfgBlockRefType)NULL_PTR,   /*STARTUP CODE.*/
