@@ -1,8 +1,9 @@
 /*
  * Os_Application.c
- *
+ *                     <Demo>
  *  Created on: Aug 26, 2020
- *      Author: ahmed
+ *      Author: Ahmed Yusri Mohammed Ezzat.
+ *
  */
 
 #include "LedSys_FsmInterface.h"
