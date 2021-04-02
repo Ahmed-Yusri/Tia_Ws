@@ -4,12 +4,9 @@
  ; Out: None
  ; return: None
  ; description: If a higher-priority task is ready, the internal state will be prepared to 
- ;              perform the context switch or the task state will be changed and linked to a task
- ;              parent.
+ ;              perform the context switch.
  ; 
- ; Usage: This function will be triggered as a sys Os interrupt from the application level (SetEvent)
- ;        or from the Os tick timer. 
- ;          (The context switch will take place at the end of this function if needed).
+ ; Usage: (The context switch will take place at the end of this function if needed).
 
 	.global Os_GlobalTaskCtxInfo
 	.global Os_Dispatcher
